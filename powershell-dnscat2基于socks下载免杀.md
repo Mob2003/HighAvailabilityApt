@@ -2,9 +2,8 @@
 ### 作者: Mob2003
 
 github地址
-```url
-https://github.com/Mob2003/HighAvailabilityApt1
-```
+https://github.com/Mob2003/dnscat2-powershell
+
 
 ### 1、简介
 
